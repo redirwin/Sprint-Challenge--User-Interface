@@ -171,6 +171,11 @@ nav ul {
   align-items: flex-end;
 }
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .banner-image {
   margin-bottom: 20px;
 }
