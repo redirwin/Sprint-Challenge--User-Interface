@@ -293,3 +293,50 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* About page styles */
+
+.top-about {
+  /* border: 1px solid red; */
+  border-bottom: 1px dashed black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20px 20px;
+  margin: 0;
+}
+.middle-about {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0 20px;
+  /* margin: 20px 0; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 360px;
+  border-bottom: 1px dashed black;
+  padding-top: 20px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+button {
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 80%;
+  padding: 5px 20px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-about {
+  padding: 20px;
+}
