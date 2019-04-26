@@ -213,12 +213,52 @@ nav a {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box:nth-of-type(1n) {
+  background: teal;
+}
+
+.box:nth-of-type(2n) {
+  background: gold;
+}
+
+.box:nth-of-type(3n) {
+  background: cadetblue;
+}
+
+.box:nth-of-type(4n) {
+  background: coral;
+}
+
+.box:nth-of-type(5n) {
+  background: crimson;
+}
+
+.box:nth-of-type(6n) {
+  background: forestgreen;
+}
+
+.box:nth-of-type(7n) {
+  background: darkorchid;
+}
+
+.box:nth-of-type(8n) {
+  background: hotpink;
+}
+
+.box:nth-of-type(9n) {
+  background: indigo;
+}
+
+.box:nth-of-type(10n) {
+  background: dodgerblue;
 }
 
 .bottom-content {
